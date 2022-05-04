@@ -28,3 +28,35 @@
     color: #191970;
     font-size: 20px;
   }
+
+  .menu{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1000px;
+    height: 50px;
+    color: #191970; 
+    text-align: left;
+  }
+
+  .profile{
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+  }
+
+  .profile .photo{
+    width :300px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+  }
+
+  .profile .mylist{
+    color: #191970;
+    font-size: 20px;
+    padding: 22px;
+    text-align: left;
+    margin-right: 10px;
+    float:left;
+  }
