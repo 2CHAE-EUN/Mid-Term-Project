@@ -1,0 +1,30 @@
+  body{
+    font-family: 'Poor Story';
+    background-color: #87cefa;
+  }
+
+  .name{
+      width: 1000px;
+      height: 70px;
+      text-align: left;
+      border: 5px solid #1e90ff;
+      margin-top: 50px;
+      padding: 25px;
+      margin: 0 auto;
+      border-radius: 20px;
+      color: #191970;
+      font-size: 50px;
+      font-weight: bold;
+  }
+
+  .main{
+    width: 1000px;
+    height: 2000px;
+    border: 5px solid #1e90ff;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 25px;
+    color: #191970;
+    font-size: 20px;
+  }
