@@ -37,21 +37,18 @@
     position: absolute;
     top: 17%;
     left: 37%;
-    opacity: 0.9;
   }
 
   .introduce_photo2{
     position: absolute;
     top: 10%;
     left: 50%;
-    opacity: 0.9;
   }
 
   .introduce_photo3{
     position: absolute;
     top: 15%;
     left: 65%;
-    opacity: 0.9;
   }
 
   .hello{
@@ -87,6 +84,15 @@
     color: #3c3c3c;
     text-decoration: none;
   }
+
+  .study{
+
+    background-color: #3c3c3c;
+    color: #fff0f5;
+
+
+  }
+
 
   .inform {
     
