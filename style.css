@@ -64,6 +64,7 @@
     width: 1000px;
     height: 380px;
     padding: 20px;
+    margin-bottom: 50px;
   }
 
   .profile .menu{
@@ -86,18 +87,27 @@
   }
 
   .study{
-
+    margin: 0 auto;
     background-color: #3c3c3c;
     color: #fff0f5;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 30px;
 
+  }
 
+  .study .menu2{
+    font-size: 40px;
+    font-weight: bold;
   }
 
 
   .inform {
     
     text-align: left;
-    padding-left: 450px;
+    padding-left: 420px;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 50px;
