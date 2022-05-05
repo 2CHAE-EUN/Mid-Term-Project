@@ -57,6 +57,7 @@
   .hello{
     text-align: center;
     padding: 20px;
+    font-weight: bold;
   }
 
   .profile{
@@ -87,15 +88,12 @@
     text-decoration: none;
   }
 
-  
-  .main{
-    width: 1000px;
-    height: 2000px;
-    border: 5px solid #1e90ff;
-    margin: 0 auto;
-    border-radius: 20px;
-    margin-top: 30px;
-    padding: 25px;
+  .inform {
+    
+    text-align: left;
+    padding-left: 450px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
-    font-size: 20px;
   }
