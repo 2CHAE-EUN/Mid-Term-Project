@@ -7,6 +7,32 @@
     </style>
     <title>Mid-Term-Project 32187505 이채은</title>
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        var index = 0;   //이미지에 접근하는 인덱스
+        window.onload = function(){
+        slideShow();
+    }
+    
+    function slideShow() {
+    var i;
+    var x = document.getElementsByClassName("myslide");  //slide1에 대한 dom 참조
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";   //처음에 전부 display를 none으로 한다.
+    }
+    index++;
+    if (index > x.length) {
+        index = 1;  //인덱스가 초과되면 1로 변경
+    }   
+    x[index-1].style.display = "block";  //해당 인덱스는 block으로
+    setTimeout(slideShow, 2000);   //함수를 4초마다 호출
+ 
+} 
+
+
+    </script>
+
+
 </head>
 <body>
     <div class="top">
@@ -56,7 +82,19 @@
         데이터마이닝<br>
     </div>
 
-
+    <div class="slide">
+        <div class="myslide">
+            <img src="slide1.jpg" width="300" height="450"> 
+        </div>    
+        <div class="myslide">
+            <img src="slide2.jpg" width="300" height="450"> 
+        </div>
+        <div class="myslide">
+            <img src="slide3.jpg" width="300" height="450"> 
+        </div>
+    </div>
+        
+        
 
     <div class="inform">
         이메일 : 32187505@dankook.ac.kr <br>
